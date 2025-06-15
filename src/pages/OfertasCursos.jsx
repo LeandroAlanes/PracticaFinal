@@ -11,7 +11,7 @@ const cursos = [
         nombre: "Tobas",
         imagen: "public/danza2.jpg",
         descripcion: "Descubre la energía de la danza Tobas, originaria de la Amazonía boliviana.",
-        precio: "Bs. 100"
+        precio: "Bs. 110"
     },
     {
         nombre: "Caporales",
