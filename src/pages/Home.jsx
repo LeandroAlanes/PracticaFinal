@@ -1,25 +1,30 @@
+import morenadaImg from "../assets/danza1.jpg";
+import tobasImg from "../assets/danza2.jpg";
+import caporalesImg from "../assets/danza3.jpg";
+import cuecaImg from "../assets/danza4.1.jpg";
+import tinkuImg from "../assets/danza5.jpg";
 import { useId } from "react";
 
 const danzas = [
     {
         nombre: "Morenada",
-        imagen: "public/danza1.jpg",
+        imagen: morenadaImg,
     },
     {
         nombre: "Tobas",
-        imagen: "public/danza2.jpg",
+        imagen: tobasImg,
     },
     {
         nombre: "Caporales",
-        imagen: "public/danza3.jpg",
+        imagen: caporalesImg,
     },
     {
         nombre: "Cueca",
-        imagen: "public/danza4.1.jpg",
+        imagen: cuecaImg,
     },
     {
         nombre: "Tinku",
-        imagen: "public/danza5.jpg",
+        imagen: tinkuImg,
     }
 ];
 

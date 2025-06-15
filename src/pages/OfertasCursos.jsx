@@ -1,21 +1,24 @@
 import { useState } from "react";
+import morenadaImg from "../assets/danza1.jpg";
+import tobasImg from "../assets/danza2.jpg";
+import caporalesImg from "../assets/danza3.jpg";
 
 const cursos = [
     {
         nombre: "Morenada",
-        imagen: "public/danza1.jpg",
+        imagen: morenadaImg,
         descripcion: "Aprende la tradicional Morenada, danza emblemática del altiplano paceño.",
         precio: "Bs. 120"
     },
     {
         nombre: "Tobas",
-        imagen: "public/danza2.jpg",
+        imagen: tobasImg,
         descripcion: "Descubre la energía de la danza Tobas, originaria de la Amazonía boliviana.",
         precio: "Bs. 120"
     },
     {
         nombre: "Caporales",
-        imagen: "public/danza3.jpg",
+        imagen: caporalesImg,
         descripcion: "Baila Caporales, una de las danzas más populares en festivales bolivianos.",
         precio: "Bs. 110"
     }
